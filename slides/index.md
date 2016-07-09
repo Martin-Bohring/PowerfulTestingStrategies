@@ -12,8 +12,8 @@
 - Automatic testing even more so
 - How can we be confident about the quality of our software?
 - How can we ensure the long time quality of software?
-- Different types of tests with different goals
-- Differnt approaches to testing
+- There are different types of tests with different goals
+- There are different approaches to testing
 
 ***
 
