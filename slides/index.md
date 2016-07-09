@@ -5,24 +5,30 @@
 - transition : default
 
 ***
+
 ### Powerful testing strategies
 
-* Testing software is a challenge for everybody
-* Automatic testing even more so
-* How can we be confident about the quality of our software?
-* How can we ensure the long time quality of software?
+- Testing software is a challenge for everybody
+- Automatic testing even more so
+- How can we be confident about the quality of our software?
+- How can we ensure the long time quality of software?
+- Different types of tests with different goals
+- Differnt approaches to testing
 
 ***
-### Types of test we will look into
 
-* Integration tests
-* Unit tests
+### The types of test we will look into
+
+- Integration tests
+- Unit tests
+- Performance tests
 
 ***
 
 ### What are integration tests?
 
 - Everybody has a different opinion
+- There are different definitions
 - Obviously a much debated issue
 - What do the experts say?
 
@@ -34,34 +40,34 @@
 > in order to determine whether a new feature or component works with
 > (or integrates with) existing features and components.
 
-*Integration tests are used to prove that all software features and components work together.*
+*Integration tests* are used to prove that all software features and components work together.
 
 ---
 
 ### Definition from IEC 62304
 
-* Has no explicit definition
-* States integration tests have to align with the integration strategy
-* Both bottom up or top down integration strategies are valid approaches
+- Has no explicit definition what integration tests are
+- States integration tests have to align with the integration strategy
+- Both bottom up or top down integration strategies are valid approaches
 
 ---
 
 ### Keywords to take away
 
-* Aggregations of
-* Features
-* Components
-* Work together
-* Multiple valid approaches
+- Aggregations of
+- Features
+- Components
+- Work together
+- Multiple valid approaches
 
 ---
 
 ### Keywords that don't appear
 
-* UI only
-* QA only
-* Test tools
-* Style of testing
+- UI only
+- QA only
+- Test tools
+- Style of testing
 
 ***
 
