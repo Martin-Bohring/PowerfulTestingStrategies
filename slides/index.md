@@ -13,7 +13,7 @@
 * How can we ensure the long time quality of software?
 
 ***
-### Types of test we will lock into
+### Types of test we will look into
 
 * Integration tests
 * Unit tests
