@@ -5,6 +5,7 @@
 - transition : default
 
 ***
+- data-background: images/DefaultBackground.jpg
 
 ### Powerful testing strategies
 
@@ -14,6 +15,7 @@
 - How can we ensure the long time quality of software?
 - There are different types of tests with different goals
 - There are different approaches to testing
+- There a lots of tools for testing
 
 ***
 
@@ -58,14 +60,14 @@
 - Features
 - Components
 - Work together
-- Multiple valid approaches
+- Multiple approaches
 
 ---
 
-### Keywords that don't appear
+### Thinks that don't appear
 
-- UI only
-- QA only
+- How to test
+- Who is responsible for testing
 - Test tools
 - Style of testing
 
