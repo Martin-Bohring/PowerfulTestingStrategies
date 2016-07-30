@@ -5,7 +5,7 @@
 - transition : default
 
 ***
-- data-background: images/DefaultBackground.jpg
+- data-background: images/Blackboard.jpg
 
 ### Powerful testing strategies
 
@@ -18,6 +18,8 @@
 - There a lots of tools for testing
 
 ***
+
+- data-background: images/Blackboard.jpg
 
 ### The types of test we will look into
 
