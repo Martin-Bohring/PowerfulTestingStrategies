@@ -21,10 +21,10 @@
 
 - data-background: images/Blackboard.jpg
 
-### Different views on testing
+### There are different views on testing
 
-- Developers view on testing
-- Testers view on testing
+- The developers view on testing
+- The testers view on testing
 - Standards view on testing (ISO IEC 90003)
 - Agile view on testing
 - Modern view on testing
@@ -35,32 +35,50 @@
 
 ### Standards views on testing
 
+Software development standards have a clear but simple view on testing.
+
+Lets define test types depending on the scope of the SUT (system under test)
+
 - Unit tests
 - Integration tests
 - System tests
 - Acceptance tests
 
+We need to delve a little bit into those definitions.
+
 ***
 
 - data-background: images/Blackboard.jpg
 
-### What are unit tests?
+### What are unit tests then?
 
-- Unit tests obviously tests units of software
+- Unit tests obviously test units of software
 - But what is a unit of software?
 - Everybody knows the units of mass (ton, kg, etc.)
 - but nobody has an exact definition of a software unit
 
+***
+
+- data-background: images/Blackboard.jpg
+
+### Definition from IEC 90003 2004
+
+> Unit tests are stand alone tests of software components.
+
+Well, that is really helpful, isn't it?
+Lets define software units in terms of another definition (components)
+
+So it is up to you to define what software units are for your project.
 
 ***
 
 - data-background: images/Blackboard.jpg
 
-### What are integration tests?
+### So what are integration tests then?
 
-- Everybody has a different opinion
-- There are different definitions
-- Obviously a much debated issue
+- They test the integration, stupid
+- But what does that mean?
+- Integration of what?
 - What do the experts say?
 
 ***
@@ -75,28 +93,7 @@
 
 *Integration tests* are used to prove that all software features and components work together.
 
-***
-
-- data-background: images/Blackboard.jpg
-
-### Keywords to take away
-
-- Aggregations of
-- Features
-- Components
-- Work together
-- Multiple approaches
-
----
-
-- data-background: images/Blackboard.jpg
-
-### Thinks that don't appear
-
-- How to test
-- Who is responsible for testing
-- Test tools
-- Style of testing
+So they test the integration of software units, but we still need to define what a unit of software is.
 
 ***
 
