@@ -9,25 +9,52 @@
 
 ### Powerful testing strategies
 
-- Testing software is a challenge for everybody
+- Testing software is still a challenge
 - Automatic testing even more so
 - How can we be confident about the quality of our software?
 - How can we ensure the long time quality of software?
-- There are different types of tests with different goals
+- There are different views on testing with different goals
 - There are different approaches to testing
-- There a lots of tools for testing
+- There are lots of tools for testing
 
 ***
 
 - data-background: images/Blackboard.jpg
 
-### The types of test we will look into
+### Different views on testing
 
-- Integration tests
-- Unit tests
-- Performance tests
+- Developers view on testing
+- Testers view on testing
+- Standards view on testing (ISO IEC 90003)
+- Agile view on testing
+- Modern view on testing
 
 ***
+
+- data-background: images/Blackboard.jpg
+
+### Standards views on testing
+
+- Unit tests
+- Integration tests
+- System tests
+- Acceptance tests
+
+***
+
+- data-background: images/Blackboard.jpg
+
+### What are unit tests?
+
+- Unit tests obviously tests units of software
+- But what is a unit of software?
+- Everybody knows the units of mass (ton, kg, etc.)
+- but nobody has an exact definition of a software unit
+
+
+***
+
+- data-background: images/Blackboard.jpg
 
 ### What are integration tests?
 
@@ -36,7 +63,9 @@
 - Obviously a much debated issue
 - What do the experts say?
 
----
+***
+
+- data-background: images/Blackboard.jpg
 
 ### Definition from IEC 90003 2004
 
@@ -46,15 +75,9 @@
 
 *Integration tests* are used to prove that all software features and components work together.
 
----
+***
 
-### Definition from IEC 62304
-
-- Has no explicit definition what integration tests are
-- States integration tests have to align with the integration strategy
-- Both bottom up or top down integration strategies are valid approaches
-
----
+- data-background: images/Blackboard.jpg
 
 ### Keywords to take away
 
@@ -66,6 +89,8 @@
 
 ---
 
+- data-background: images/Blackboard.jpg
+
 ### Thinks that don't appear
 
 - How to test
@@ -74,6 +99,8 @@
 - Style of testing
 
 ***
+
+- data-background: images/Blackboard.jpg
 
 ### What is powerful
 
