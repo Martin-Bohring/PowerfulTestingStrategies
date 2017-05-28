@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Powerful testing strategies</title>
-    <meta name="description" content="Powerful testing strategies by using powerful tools">
+    <title>Microservices</title>
+    <meta name="description" content="Oportunities and challenges implementing Microservice Architectures">
     <meta name="author" content="Martin Bohring">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -49,85 +49,48 @@
         
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section data-background="images/Blackboard.jpg">
-<h3>Powerful testing strategies</h3>
+            <section id="title">
+<h3>Oportunities and challenges implementing Microservice Architectures</h3>
+<p>Martin Bohring 2017</p>
+</section>
+<section id="history">
+<h3>A little bit of history</h3>
+</section>
+<section id="history90">
+<h4>The 90's approach</h4>
 <ul>
-<li>Testing software is still a challenge</li>
-<li>Automatic testing even more so</li>
-<li>How can we be confident about the quality of our software?</li>
-<li>How can we ensure the long time quality of software?</li>
-<li>There are different views on testing with different goals</li>
-<li>There are different approaches to testing</li>
-<li>There are lots of tools for testing</li>
-</ul>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>There are different views on testing</h3>
+<li>Heavyweight RPC based systems based on IDL (Interface Desciption Language) lifted from the 80´s</li>
+<li>
+<p>Heavyweight distributed object systems like CORBA and DCOM and others also based on IDL dialects</p>
 <ul>
-<li>The developers view on testing</li>
-<li>The testers view on testing</li>
-<li>Standards view on testing (ISO IEC 90003)</li>
-<li>Agile view on testing</li>
-<li>Modern view on testing</li>
+<li>leading to strong coupling</li>
+<li>leading to vendor lock in</li>
+<li>and big up front costs</li>
+<li>and a lot of coordination between teams and companies</li>
 </ul>
+</li>
+</ul>
+<p><strong>Result:</strong> Distributed developer hell</p>
 </section>
-<section data-background="images/Blackboard.jpg">
-<h3>Standards views on testing</h3>
-<p>Software development standards have a clear but simple view on testing.</p>
-<p>Lets define test types depending on the scope of the SUT (system under test)</p>
+<section id="history2000">
+<h4>The 2000's approach</h4>
 <ul>
-<li>Unit tests</li>
-<li>Integration tests</li>
-<li>System tests</li>
-<li>Acceptance tests</li>
-</ul>
-<p>We need to delve a little bit into those definitions.</p>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>What are unit tests then?</h3>
+<li>This time we do better</li>
+<li>Let´s use human readable XML for everthing and let´s stay programming language agnostic</li>
+<li>Lets´s get rid of IDL</li>
+<li>Let's be Internet ready and build on HTML and XML</li>
+<li>So SOAP (Simple Object Access Protocol) was invented</li>
+<li>
+<p>but that was not sufficient or enterprice ready</p>
 <ul>
-<li>Unit tests obviously test units of software</li>
-<li>But what is a unit of software?</li>
-<li>Everybody knows the units of mass (ton, kg, etc.)</li>
-<li>but nobody has an exact definition of a software unit</li>
+<li>so a description language (WSDL) was invented</li>
+<li>A way to relate calls to each other was invented (WS-Adressing)</li>
+<li>A way to deliver events was needed (WS-Eventing)</li>
+<li>Service address hardcoding was a pain, so service discovery was created (WS-Discovery)</li>
 </ul>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>Definition from IEC 90003 2004</h3>
-<blockquote>
-<p>Unit tests are stand alone tests of software components.</p>
-</blockquote>
-<p>Well, that is really helpful, isn't it?
-Lets define software units in terms of another definition (components)</p>
-<p>So it is up to you to define what software units are for your project.</p>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>So what are integration tests then?</h3>
-<ul>
-<li>They test the integration, stupid</li>
-<li>But what does that mean?</li>
-<li>Integration of what?</li>
-<li>What do the experts say?</li>
+</li>
 </ul>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>Definition from IEC 90003 2004</h3>
-<blockquote>
-<p>Integration tests examine aggregations of individual software features and components
-in order to determine whether a new feature or component works with
-(or integrates with) existing features and components.</p>
-</blockquote>
-<p><em>Integration tests</em> are used to prove that all software features and components work together.</p>
-<p>So they test the integration of software units, but we still need to define what a unit of software is.</p>
-</section>
-<section data-background="images/Blackboard.jpg">
-<h3>What is powerful</h3>
-<ul>
-<li>Easy to write</li>
-<li>Easy to run</li>
-<li>As close to the production environment as possible</li>
-<li>As close to the business point of view (end user view) as possible</li>
-</ul>
+<p><strong>Result:</strong> Distributed developer hell (XML edition)</p>
 </section>
 
 
