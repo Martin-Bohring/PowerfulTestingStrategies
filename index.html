@@ -49,69 +49,78 @@
         
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section >
+            <section data-background="images/Blackboard.jpg">
 <h3>Powerful testing strategies</h3>
 <ul>
-<li>Testing software is a challenge for everybody</li>
+<li>Testing software is still a challenge</li>
 <li>Automatic testing even more so</li>
 <li>How can we be confident about the quality of our software?</li>
 <li>How can we ensure the long time quality of software?</li>
+<li>There are different views on testing with different goals</li>
+<li>There are different approaches to testing</li>
+<li>There are lots of tools for testing</li>
 </ul>
 </section>
-<section >
-<h3>Types of test we will look into</h3>
+<section data-background="images/Blackboard.jpg">
+<h3>There are different views on testing</h3>
 <ul>
-<li>Integration tests</li>
+<li>The developers view on testing</li>
+<li>The testers view on testing</li>
+<li>Standards view on testing (ISO IEC 90003)</li>
+<li>Agile view on testing</li>
+<li>Modern view on testing</li>
+</ul>
+</section>
+<section data-background="images/Blackboard.jpg">
+<h3>Standards views on testing</h3>
+<p>Software development standards have a clear but simple view on testing.</p>
+<p>Lets define test types depending on the scope of the SUT (system under test)</p>
+<ul>
 <li>Unit tests</li>
+<li>Integration tests</li>
+<li>System tests</li>
+<li>Acceptance tests</li>
+</ul>
+<p>We need to delve a little bit into those definitions.</p>
+</section>
+<section data-background="images/Blackboard.jpg">
+<h3>What are unit tests then?</h3>
+<ul>
+<li>Unit tests obviously test units of software</li>
+<li>But what is a unit of software?</li>
+<li>Everybody knows the units of mass (ton, kg, etc.)</li>
+<li>but nobody has an exact definition of a software unit</li>
 </ul>
 </section>
-<section >
-<section >
-<h3>What are integration tests?</h3>
+<section data-background="images/Blackboard.jpg">
+<h3>Definition from IEC 90003 2004</h3>
+<blockquote>
+<p>Unit tests are stand alone tests of software components.</p>
+</blockquote>
+<p>Well, that is really helpful, isn't it?
+Lets define software units in terms of another definition (components)</p>
+<p>So it is up to you to define what software units are for your project.</p>
+</section>
+<section data-background="images/Blackboard.jpg">
+<h3>So what are integration tests then?</h3>
 <ul>
-<li>Everybody has a different opinion</li>
-<li>Obviously a much debated issue</li>
+<li>They test the integration, stupid</li>
+<li>But what does that mean?</li>
+<li>Integration of what?</li>
 <li>What do the experts say?</li>
 </ul>
 </section>
-<section >
+<section data-background="images/Blackboard.jpg">
 <h3>Definition from IEC 90003 2004</h3>
 <blockquote>
 <p>Integration tests examine aggregations of individual software features and components
 in order to determine whether a new feature or component works with
 (or integrates with) existing features and components.</p>
 </blockquote>
-<p><em>Integration tests are used to prove that all software features and components work together.</em></p>
+<p><em>Integration tests</em> are used to prove that all software features and components work together.</p>
+<p>So they test the integration of software units, but we still need to define what a unit of software is.</p>
 </section>
-<section >
-<h3>Definition from IEC 62304</h3>
-<ul>
-<li>Has no explicit definition</li>
-<li>States integration tests have to align with the integration strategy</li>
-<li>Both bottom up or top down integration strategies are valid approaches</li>
-</ul>
-</section>
-<section >
-<h3>Keywords to take away</h3>
-<ul>
-<li>Aggregations of</li>
-<li>Features</li>
-<li>Components</li>
-<li>Work together</li>
-<li>Multiple valid approaches</li>
-</ul>
-</section>
-<section >
-<h3>Keywords that don't appear</h3>
-<ul>
-<li>UI only</li>
-<li>QA only</li>
-<li>Test tools</li>
-<li>Style of testing</li>
-</ul>
-</section>
-</section>
-<section >
+<section data-background="images/Blackboard.jpg">
 <h3>What is powerful</h3>
 <ul>
 <li>Easy to write</li>
